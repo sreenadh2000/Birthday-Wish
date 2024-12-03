@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Birthday-Wish/static/css/main.52f1064e.css",
+    "main.js": "/Birthday-Wish/static/js/main.93f55c65.js",
+    "static/js/453.e28959d5.chunk.js": "/Birthday-Wish/static/js/453.e28959d5.chunk.js",
+    "index.html": "/Birthday-Wish/index.html",
+    "main.52f1064e.css.map": "/Birthday-Wish/static/css/main.52f1064e.css.map",
+    "main.93f55c65.js.map": "/Birthday-Wish/static/js/main.93f55c65.js.map",
+    "453.e28959d5.chunk.js.map": "/Birthday-Wish/static/js/453.e28959d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52f1064e.css",
+    "static/js/main.93f55c65.js"
+  ]
+}
