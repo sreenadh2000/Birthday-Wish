@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+
+import * as React from 'react';
+import Balloons from './components/HomePage/BaloonsFloat';
+import EnvelopLetter from './components/Envelop/EnvelopLetter';
+import GalleryView from './components/Gallery/GalleryView';
+import NavBar from './components/Header/NavBar';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div id='Home' className='container-fluid p-0 m-0'>
+    <NavBar />
+    <div  className=''>
+    <Balloons />
     </div>
-  );
+    <div id='Gallery'>
+    <GalleryView />
+    </div>
+    <div id='Envelop' className='my-5'>
+    <EnvelopLetter />
+    </div>
+    <footer>
+  <p className='pt-3'>copywrites by @2024</p>
+</footer>
+    </div>
+    </>
+  )
 }
 
 export default App;
